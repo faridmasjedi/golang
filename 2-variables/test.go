@@ -12,9 +12,9 @@ func main(){
 	h := "Age is 37"
 
 	fmt.Println("My name is : " + a + " " + b)
-	fmt.Println(h)
 	fmt.Println(c)
 	fmt.Println(d)
-	fmt.Println(f || g)
 	fmt.Println(e)
+	fmt.Println(f || g)
+	fmt.Println(h)
 }
