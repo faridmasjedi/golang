@@ -15,6 +15,9 @@ func newPerson(name string, age int) person {
 }
 
 func main() {
+	x := person{name:"Farid", age:55}
+	fmt.Println("x:",x)
+
 	s := newPerson("Farid", 37)
 	fmt.Println("s:", s)
 
@@ -26,7 +29,7 @@ func main() {
 
 	sss := &ss
 	sss.age = 56
-	fmt.Println("s:", s)
+	fmt.Println("------")
 	fmt.Println("ss:", ss)
 	fmt.Println("sss:", sss)
 
