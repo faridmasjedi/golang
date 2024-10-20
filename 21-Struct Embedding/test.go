@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-type base struct { 
+type base struct {
 	num int
 }
 
@@ -17,12 +17,14 @@ type container struct {
 
 func main() {
 	co := container{
-		base: base{ 
-			num: 1, 
+		base: base{
+			num: 1,
 		},
 		str: "some name",
 	}
 
+	fmt.Println("num:", co.num)
 	fmt.Println("num:", co.base.num)
 	fmt.Println("describe co:", co.describe())
+	fmt.Println("describe co:", co.base.describe())
 }
